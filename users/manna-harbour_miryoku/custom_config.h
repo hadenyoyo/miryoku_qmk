@@ -5,3 +5,8 @@
 
 #pragma once
 
+#define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
+KC_B,              KC_L,              KC_D,              KC_C,              KC_V,              KC_J,              KC_F,              KC_O,              KC_U,              KC_COMM,              \
+LGUI_T(KC_N),      LALT_T(KC_R),      LCTL_T(KC_T),      LSFT_T(KC_S),      KC_G,              KC_Y,              LSFT_T(KC_H),      LCTL_T(KC_A),      LALT_T(KC_E),      LGUI_T(KC_I),   \
+LT(U_BUTTON,KC_X), ALGR_T(KC_Q),      KC_M,              KC_W,              KC_Z,              KC_K,              KC_P,              KC_QUOT,           ALGR_T(KC_SCLN),    LT(U_BUTTON,KC_DOT),\
+U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
